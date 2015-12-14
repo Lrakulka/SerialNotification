@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SerialsNotification</string>
+    <string name="hint">This is alarm madafaca</string>
+    <string name="title_activity_activity_two">ActivityTwo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+</resources>

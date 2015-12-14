@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.gencha.alarmexample.ActivityTwo">
+
+    <CheckBox
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:text="Сезон 1 Еп 1"
+        android:id="@+id/checkBox10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:text="Сезон 1 Еп 2"
+        android:id="@+id/checkBox11"
+        android:layout_below="@+id/checkBox10"
+        android:layout_alignLeft="@+id/checkBox10"
+        android:layout_alignStart="@+id/checkBox10"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:text="Сезон 1 Еп 3"
+        android:id="@+id/checkBox12"
+        android:layout_below="@+id/checkBox11"
+        android:layout_alignLeft="@+id/checkBox11"
+        android:layout_alignStart="@+id/checkBox11"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:text="Сезон 1 Еп 4"
+        android:id="@+id/checkBox13"
+        android:layout_below="@+id/checkBox12"
+        android:layout_alignLeft="@+id/checkBox12"
+        android:layout_alignStart="@+id/checkBox12"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:text="Сезон 1 Еп 5"
+        android:id="@+id/checkBox14"
+        android:layout_below="@+id/checkBox13"
+        android:layout_alignLeft="@+id/checkBox13"
+        android:layout_alignStart="@+id/checkBox13"
+        android:checked="false" />
+</RelativeLayout>
